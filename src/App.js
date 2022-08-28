@@ -4,7 +4,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import './App.css';
 import Profile from './Components/Profile';
-import Course from './Pages/Course';
+import Courses from './Pages/Courses';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
                   <Profile/>
                 </Col>
                 <Col lg={9} xs={12}>
-                  <Course/>
+                  <Courses/>
                 </Col>
               </Row>
               <Row className="mt-4">

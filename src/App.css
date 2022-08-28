@@ -1,0 +1,90 @@
+@font-face {
+    font-family: japan;
+    src: url(../src/fonts/HIROSHT.TTF);
+}
+
+@font-face {
+    font-family: fake;
+    src: url(../src/fonts/FakeIdentity.ttf);
+}
+
+#logo{
+    font-family: japan;
+    font-size: 30px;
+}
+
+.toggler{
+    padding-left: 2cm;
+}
+
+.profileimg{
+   width:130px;
+   height:130px;
+   margin: 0 auto;
+   border-radius: 60%;
+   margin-bottom:2rem;
+}
+
+.profile{
+    text-align: center;
+    padding: 2rem 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.profile ul{
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.Choices{
+    padding: 3px 25px;
+    margin:0 1rem;
+    font-size: 20px;
+    background-color: red;
+    font-family: fake;
+}
+
+.item-container{
+    width: 60%;
+    margin-left: 0.5cm;
+    background-color:lightblue;
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:800px) {
+    .a1{
+        font-size: 25px;
+    }
+    .item-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .item-container{
+        display: flex;
+        flex-direction:row;
+        width:300px ;
+    }
+    .item{
+        width: fit-content;
+    }
+}
